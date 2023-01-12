@@ -1,0 +1,23 @@
+.character {
+  background-color: rgba(78, 78, 78, 0.7);
+  width: 31.3%;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+
+  .itemList {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .character {
+    width: 49%;
+  }
+}
+
+@media (max-width: 400px) {
+  .character {
+    width: 100%;
+  }
+}
